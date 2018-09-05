@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Events</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Get registered.</string>
+    <string name="btn_link_to_login">Already Registered? Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_admission">Admission</string>
+    <string name="hint_faculty">Faculty</string>
+</resources>

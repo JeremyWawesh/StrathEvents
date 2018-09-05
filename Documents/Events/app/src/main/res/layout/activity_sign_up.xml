@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="strathmore.edu.events.SignUp"
+    android:background="#e0e0e0"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:src="@drawable/strath"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/email"
+        android:hint="@string/hint_email"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/password"
+        android:hint="@string/hint_password"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberPassword"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/admission"
+        android:hint="@string/hint_admission"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginTop="100dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/faculty"
+        android:hint="@string/hint_faculty"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ems="10"
+            android:inputType="textCapSentences"
+            android:layout_marginTop="100dp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/material_blue_500"
+        android:hint="REGISTER"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Link to Login Screen -->
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@null"
+        android:text="@string/btn_link_to_login"
+        android:textAllCaps="false"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>

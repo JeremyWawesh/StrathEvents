@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "936205028334",
+    "firebase_url": "https://strathevents-c393d.firebaseio.com",
+    "project_id": "strathevents-c393d",
+    "storage_bucket": "strathevents-c393d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936205028334:android:ae37b9eae81ef2c4",
+        "android_client_info": {
+          "package_name": "strathmore.edu.events"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936205028334-h7sf6nusch2vsd1btmjpcaqpg1002adb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdQBAEt3BCEmPEtccs-llwV4iG6avoxSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
